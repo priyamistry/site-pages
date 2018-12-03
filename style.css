@@ -13,6 +13,7 @@ body {
 header {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 h1, div {
@@ -54,18 +55,52 @@ a:hover {
     color: #CFCFCF;
 }
 
+img.main {
+    top: 5rem;
+    position: relative;
+    width: 100%; 
+}
+
+img.triangle {
+    width: 10%;
+    top: 5.5rem;
+    left: 11.1rem; 
+    position: relative;
+}
+
+main {
+    top: 6rem;
+    position: relative;
+} 
+
 img {
     width: 100%; 
+} 
+
+img.connect {
+    left: 0;
+    width: 50%;
 }
 
 h2.center {
     text-align: center;
     font-weight: lighter;
+    top: 5rem;
+    position: relative;
 }
 
 p.center {
     text-align: center;
     font-style: italic;
+    font-weight: lighter;
+    margin: 1rem;
+    top: 5.3rem;
+    position: relative;
+}
+
+h4 {
+    margin: 1rem 1.7rem;
+    text-align: center;
     font-weight: lighter;
 }
 
@@ -78,6 +113,10 @@ p.about {
     margin-bottom: 1rem;
 }
 
+li {
+    margin-right: 1.5rem; 
+}
+
 ul.ed {
     list-style-type: none;
 }
@@ -86,29 +125,56 @@ h2 {
     margin: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
-img.email {
-    width: 10rem;
-    top: 6rem;
-    left: 1.5rem;
+img.circle {
+    width: 1.75rem;
+}
+
+input {
+    margin: 0.25rem 2rem 1.25rem;
+}
+
+p.form {
+    margin-left: 2rem;
+}
+
+/* ul.circle {
+    list-style-type: none;
+    display: block;
+}
+
+li.lightbulb {
+    top: 8rem;
+    left: 43rem;
+    position: fixed;
+}
+
+p.lightbulb {
+    top: 8.2rem;
+    left: 45rem;
+    position: fixed;
+}
+
+li.email {
+    top: 15rem;
+    left: 43rem;
     position: fixed;
 }
 
 p.email {
-    top: 10rem;
-    left: 12rem;
+    top: 15.2rem;
+    left: 45rem;
     position: fixed;
 }
 
-img.linkedin {
-    width: 10rem;
-    top: 16rem;
-    left: 1.5rem; 
+li.linkedin {
+    top: 22rem;
+    left: 43rem;
     position: fixed;
 }
 
 p.linkedin {
-    top: 16rem;
-    left: 12rem;
+    top: 22.2rem;
+    left: 45rem;
     position: fixed;
 }
 
@@ -118,4 +184,4 @@ a.connect:link, a.connect:visited, a.connect:active {
 
 a.connect:hover {
     color: #CFCFCF;
-}
+} */
