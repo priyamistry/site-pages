@@ -126,62 +126,22 @@ h2 {
 }
 
 img.circle {
-    width: 1.75rem;
+    width: 1.8rem;
+    left: 22rem;
+    position: relative;
 }
 
 input {
     margin: 0.25rem 2rem 1.25rem;
 }
 
+input [type="button"] {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 p.form {
     margin-left: 2rem;
 }
 
-/* ul.circle {
-    list-style-type: none;
-    display: block;
-}
-
-li.lightbulb {
-    top: 8rem;
-    left: 43rem;
-    position: fixed;
-}
-
-p.lightbulb {
-    top: 8.2rem;
-    left: 45rem;
-    position: fixed;
-}
-
-li.email {
-    top: 15rem;
-    left: 43rem;
-    position: fixed;
-}
-
-p.email {
-    top: 15.2rem;
-    left: 45rem;
-    position: fixed;
-}
-
-li.linkedin {
-    top: 22rem;
-    left: 43rem;
-    position: fixed;
-}
-
-p.linkedin {
-    top: 22.2rem;
-    left: 45rem;
-    position: fixed;
-}
-
-a.connect:link, a.connect:visited, a.connect:active {
-    color: black;
-}
-
-a.connect:hover {
-    color: #CFCFCF;
-} */
