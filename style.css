@@ -45,6 +45,7 @@ h1 {
 li.inline {
     display: inline-block;
     width: 5.75rem; /* 92/16 */
+    margin: 0 0.5rem;
 }
 
 a:link, a:visited, a:active {
